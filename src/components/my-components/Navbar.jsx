@@ -1,10 +1,12 @@
+// 'use client'
 import React from 'react'
+import Link from "next/link";
 
 const Navbar = () => {
     return (
         <div>
             {/* Logo */}
-            <img src="/images/logo/logo.svg" alt="Logo" className=" absolute md:left-[135px] md:top-[16px] md:w-[132px] md:h-[48px]" />
+            <img src="/images/logo/logo.svg" alt="Logo" className=" absolute md:left-[135px] md:top-[16px] w-[152px] md:w-[132px] h-[48px]" />
             <div className="absolute md:left-[135px] md:top-[16px]">
             </div>
             <nav className="flex items-center justify-between">
