@@ -16,8 +16,8 @@ const Portfolio = () => {
                 <a href="" className="md:w-[64px] md:h-[32px] md:top-[8px]">Show All </a>
                 <a href="" className=" md:w-[53px] md:h-[32px] md:top-[8px]">Design </a>
                 <a href="" className=" md:w-[70px] md:h-[32px] md:top-[8px]">Branding </a>
-                <a href="className= md:w-[85px] md:h-[32px] md:top-[8px]">Illustration </a>
-                <a href="className= md:w-[55px] md:h-[32px] md:top-[8px]">Motion </a>
+                <a href="" className="md:w-[85px] md:h-[32px] md:top-[8px]">Illustration </a>
+                <a href="" className="md:w-[55px] md:h-[32px] md :top-[8px]">Motion </a>
 
                 <div className="absolute flex flex-row justify-between md:w-[14px] md:h-[14px] md:top-[-8px] font-epilogue font-normal text-[14px] leading-[24px] text-center text-[#ffffff]/[0.64] ">
                     <p className="absolute md:w-[14px] md:h-[24px] md:left-[64px] ">14</p>
@@ -148,7 +148,7 @@ const Portfolio = () => {
                 </button>
             </div>
 
-           
+
         </>
     )
 }

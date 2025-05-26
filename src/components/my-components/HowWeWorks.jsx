@@ -67,10 +67,10 @@ const HowWeWorks = () => {
                             hover:bg-white/10 hover:scale-105
                             active:scale-95 active:bg-white/20"
             >
-              <div className="w-0 h-0 border-l-[16px] border-r-[16px] border-b-[22px] 
-                                  border-l-transparent border-r-transparent border-b-white 
-                                  rotate-[90deg] rounded-[2px]">
-              </div>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="30" viewBox="0 0 21 30" fill="none">
+                <path d="M19.776 13.3825C20.8742 14.1812 20.8742 15.8188 19.776 16.6175L3.17634 28.6899C1.8544 29.6513 0 28.707 0 27.0725V2.92754C0 1.29297 1.8544 0.348658 3.17634 1.31007L19.776 13.3825Z" fill="white" />
+              </svg>
             </button>
 
           </div>

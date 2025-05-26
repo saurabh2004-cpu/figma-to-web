@@ -27,7 +27,6 @@ const Map = () => {
 
                 {/* ocontact form */}
                 <form
-                    action=""
                     className="absolute z-2 md:w-[470px] md:h-[464px] md:top-[128px] md:left-[135px] rounded-[6px] bg-[#ffffff] "
                 >
 
@@ -47,7 +46,8 @@ const Map = () => {
                         <select
                             className="w-full h-full appearance-none bg-transparent outline-none cursor-pointer text-[#391400]/[64%] font-epilogue text-[16px] leading-[32px] font-normal"
                             defaultValue=""
-                            aria-placeholder="Subject"
+                            // aria-placeholder="Subject"
+                            placeholder="Subject"
                         >
                             <option
                                 value="" disabled
@@ -75,7 +75,6 @@ const Map = () => {
                     </div>
 
                     <textarea
-                        name=""
                         placeholder="Message"
                         className="absolute md:w-[374px] md:h-[124px] md:top-[240px] md:left-[32px] border-[1px] border-[#f3d1bf] rounded-[6px] text-[#391400] font-epilogue font-normal text-[16px] leading-[32px] 
                                     placeholder:text-[#391400]/[64%] placeholder:font-epilogue placeholder:text-[16px] placeholder:leading-[32px] placeholder:font-normal pl-[32px]"
