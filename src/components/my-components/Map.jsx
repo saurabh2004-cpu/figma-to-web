@@ -47,7 +47,7 @@ const Map = () => {
                             className="w-full h-full appearance-none bg-transparent outline-none cursor-pointer text-[#391400]/[64%] font-epilogue text-[16px] leading-[32px] font-normal"
                             defaultValue=""
                             // aria-placeholder="Subject"
-                            placeholder="Subject"
+                            // placeholder="Subject"
                         >
                             <option
                                 value="" disabled
